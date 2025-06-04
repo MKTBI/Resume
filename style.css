@@ -22,7 +22,8 @@ header h2 {
 
 /* Use a horizontal layout for the main content */
 main {
-  display: inline-block;
+  display: flex;
+  flex-wrap: wrap;
   margin: 50px 0;
 }
 
